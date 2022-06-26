@@ -1,0 +1,53 @@
+body,html{
+  background-color: black; 
+  color: white; 
+}
+.u
+{
+    background-image: linear-gradient(red,yellow);
+    height: 100px;
+    width:300px;
+    border-radius: 1200px;
+    color: blue;
+    display: inline-table;
+    z-index: 1;
+    animation-name: linec;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+    
+}
+@keyframes linec
+{
+   100%
+    {
+        transform: translateX(200px);
+    
+}
+}
+.f
+{
+    background-image:linear-gradient(blue,white);
+    width:1200px;
+    height: 200px;
+    animation-name: vinay;
+    z-index: 1;
+}
+div h1{
+color:aqua;
+}
+div h1:hover
+{
+    color: azure;
+}
+/*.b
+{
+    height: 200px;
+    width:200px;
+    background-image: linear-gradient(pink,violet);
+    border-radius: 100px;
+
+z-index: 2;
+}
+*/
